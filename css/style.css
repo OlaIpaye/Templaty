@@ -1,7 +1,40 @@
+/* Reset page margin and padding and font-family */
 * {
     font-family: 'Amaranth', 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-p {
+/* Using variables */
+:root {
+    --main-green: #A3D96C;
+}
+
+
+p, button {
     font-family: 'Open Sans', sans-serif;
+}
+
+/* Tablet Structure */
+.wrapper {
+    border-radius: 100px;
+    border: 60px solid #1C1C1C;
+    background-color: #F2F2F2;
+    margin: auto;
+    width: 1380px;
+    height: auto;
+}
+
+.top-circle {
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.bottom-circle {
+    background-color: #1C1C1C;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
