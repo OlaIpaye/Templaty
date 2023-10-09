@@ -1,5 +1,5 @@
 /* Reset page margin and padding and font-family */
-body, html {
+body, html, h1, h2 {
     font-family: 'Amaranth', 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -61,3 +61,36 @@ p, button {
 }
 
 /* Header */
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    margin: 70px auto;
+}
+
+.logo {
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.image-bg {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 350px;
+    background-color: var(--main-green);
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 170px;
+    /* overflow: hidden; */
+}
+
+.phone-designs {
+ 
+}
