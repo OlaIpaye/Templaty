@@ -22,12 +22,12 @@ p, button {
     justify-content: center;
     align-items: center;
     margin: 40px auto;
-    position: relative;
+    position: relative; /* to position the circles on top and boottom */
     border-radius: 100px;
     border: 60px solid #1C1C1C;
     background-color: #F2F2F2;
-    /* margin: auto; */
-    width: 1280px;
+    /* width: 1280px; /* whole content width */
+    width: 80%; /* whole content width */ 
     height: auto;
 }
 
@@ -56,7 +56,7 @@ p, button {
 }
 
 .screen-area {
-    width: 95%;
+    width: 100%; /* width of the whole screen */
     margin: 20px auto;
 }
 
@@ -66,17 +66,20 @@ p, button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
+    width: 80%;
     margin: 70px auto;
 }
 
 .logo {
-    width: 800px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     margin-bottom: 30px;
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
 }
 
 .image-bg {
@@ -86,11 +89,9 @@ h1 {
     height: 350px;
     background-color: var(--main-green);
     width: 100%;
-    margin-bottom: 30px;
-    margin-top: 170px;
-    /* overflow: hidden; */
+    margin: 170px auto 30px auto;
 }
 
 .phone-designs {
- 
+    margin-bottom: 10px;
 }
