@@ -2,6 +2,8 @@
 
 Temp!aty is an email template design brand. We create unique email templates for businesses who want to sell more and connect with their customers.
 
+![Templaty newletter design](<images/templaty newletter design.png>)
+
 ## Project Details
 
 I want to build a responsive email template web application that promotes the brands newsletter and products.
