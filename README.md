@@ -8,3 +8,8 @@ I want to build a responsive email template web application that promotes the br
 
 - I will design a one page web application that looks good on desktop and mobile.
 - I will make it easy to use and have CTA.
+
+## Published Website
+
+- Click the link below to see the published site:
+  https://olaipaye.github.io/Templaty/
